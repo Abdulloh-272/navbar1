@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Style links  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header Start  -->
+    <header class="fixed w-full top-0 z-40 border-b-2 py-4 border-gray-400">
+      <div class="container mx-auto px-5">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-5">
+            <h2 class="font-medium text-lg">FOOD</h2>
+
+            <a class="text-sm font-medium hover:text-blue-500" href="">About</a>
+            <a class="text-sm font-medium hover:text-blue-500" href="">Blog</a>
+            <a class="text-sm font-medium hover:text-blue-500" href=""
+              >Contact</a
+            >
+            <a class="text-sm font-medium hover:text-blue-500" href=""
+              >Deliver</a
+            >
+          </div>
+
+          <div class="relative">
+            <i onclick="navbar()" class="fa-solid fa-bars"></i>
+
+            <div
+              class="z-50 bg-white border-gray-500 border-2 w-[230px] h-[300px] absolute -left-[135px] -top-[17px] rounded-xl pt-2 px-5 nav hidden"
+            >
+              <i onclick="back()" class="fa-solid fa-arrow-left hover:-translate-x-[1px] hover:opacity-25 transition-all"></i>
+              <nav class="mt-5">
+                <div class="">
+                  <a class="font-medium hover:text-blue-500" href="">Burger</a>
+                  <i class="fa-solid fa-burger"></i>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <a class="font-medium hover:text-blue-500" href="">Pizza</a>
+                  <i class="fa-solid fa-pizza-slice"></i>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <a class="font-medium hover:text-blue-500" href=""
+                    >Sandwich</a
+                  >
+                  <i class="fa-solid fa-hotdog"></i>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <a class="font-medium hover:text-blue-500" href="">Hot-Dog</a>
+                  <i class="fa-solid fa-hotdog"></i>
+                </div>
+                <div class="flex items-center gap-2">
+                  <a class="font-medium hover:text-blue-500" href="">Lavash</a>
+                  <i class="fa-solid fa-pizza-slice"></i>
+                </div>
+              </nav>
+
+              <div class="mt-10">
+                <h2 class="font-medium">Call-77.777.07.07</h2>
+
+                <h3 class="font-medium">Location .......</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Finish  -->
+
+    <main class="">
+      <!-- Hero Section Start  -->
+      <section class="">
+        <div class="container mx-auto px-5">
+          <div class="flex">
+            <div class=""></div>
+
+            <div class=""></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hero Section Finish  -->
+    </main>
+
+    <!-- Footer Start  -->
+    <footer class="">
+      <div class="container mx-auto px-5">
+        <div class="flex">
+          <div class=""></div>
+          <div class=""></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Finish  -->
+    <noscript>Browser java scriptni qollab quvvatlamaydi</noscript>
+    <script src="./app.js"></script>
+  </body>
+</html>
